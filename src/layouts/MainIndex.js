@@ -7,6 +7,7 @@ import clsx from 'clsx';
 import bgimage from '../assets/images/totoro-white-background.jpg';
 import totorologo from '../assets/images/totorologo.svg';
 import totororun from '../assets/images/totoro-run.gif';
+import titlelogo from '../assets/images/title-logo.svg';
 import FetchFilmsInfo from '../containers/FetchFilmsInfo';
 const useStyles = makeStyles(theme => ({
     appbar: {
@@ -33,6 +34,9 @@ const useStyles = makeStyles(theme => ({
     dynamicimg: {
         width: theme.spacing(8),
         height: theme.spacing(8),
+    },
+    titlelogo: {
+        height: '64px'
     }
 }))
 
@@ -46,15 +50,14 @@ const MainIndex = (props) => {
                 <Toolbar>
                     <Container>
                         <img src={totorologo} className={classes.totorologo} />
+                        <img src={titlelogo} className={classes.titlelogo}/>
                     </Container>
                 </Toolbar>
             </AppBar>
             <Container 
                 style={{marginTop: '0px', backgroundImage: `url(${bgimage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '600px', maxWidth:'none'}}
             >   <img src={totororun} className={"imgrun"}/>          
-                <Typography variant={"h1"} className={classes.title}>
-                    吉卜力工作室
-                </Typography>
+                
             </Container>
             <Container style={{top: '-80px', zIndex: theme.zIndex.mobileStepper, position: 'relative'}}>
                 <FetchFilmsInfo />

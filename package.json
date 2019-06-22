@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "show the films of ghibli",
   "main": "index.js",
+  "homepage": "https://mochunyi.github.io/GHIBLI",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
+
   },
   "keywords": [
     "react",
@@ -36,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

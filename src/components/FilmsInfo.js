@@ -17,12 +17,26 @@ const useStyles = makeStyles(theme => ({
     card: {
         boxShadow: theme.shadows[5],
         '& div': {
-            textAlign: 'center'
+            height: "100%",
+            padding: '0',
+            '& h5': {
+                textAlign: 'center',
+                width: '100%',
+                height: '20%'
+            },
+            '& p': {
+                height: "80%",
+                overflowY: "scroll",
+                
+            } 
         },
         height: '200px'
     },
     cardcontent: {
         textAlign: 'center'
+    },
+    cardtitle: {
+        backgroundImage: 'linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%)'
     }
 }))
 
@@ -37,7 +51,7 @@ const FilmsInfo = (props) => {
                         <Grid  item key={index} xs={8} sm={6} md={4} style={{overflow: 'hidden'}}>
                             <Card className={classes.card}>
                                 <CardContent >
-                                    <Typography variant={"h5"} style={{display: 'inline-block'}}>
+                                    <Typography className={classes.cardtitle} variant={"h5"} style={{display: 'inline-block'}}>
                                         {item.title}
                                     </Typography>
                                     <Typography style={{overflowY: 'auto'}} >
@@ -49,8 +63,8 @@ const FilmsInfo = (props) => {
                     )
                 })
             }
-            <Grid item>
-                <Button onClick={props.onSendRequest}>
+            <Grid item xs={8} sm={6} md={4} justify={"center"} style={{display: 'flex'}}>
+                <Button variant="contained" onClick={props.onSendRequest}>
                     SEND
                 </Button>
             </Grid>
