@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64c99cc18e55980c5d49cf1d1beb1436",
+    "revision": "82c0f56a5ee522178dc340b62f94a2f8",
     "url": "/GHIBLI/index.html"
   },
   {
-    "revision": "0fa550f530734c8a788b",
-    "url": "/GHIBLI/static/css/main.408c4145.chunk.css"
+    "revision": "8c442c9730877eee5c98",
+    "url": "/GHIBLI/static/css/main.ea91ba80.chunk.css"
   },
   {
-    "revision": "12d4f41936e7cb5f6b64",
-    "url": "/GHIBLI/static/js/2.47d5459d.chunk.js"
+    "revision": "77ee9cb7da76d7ea6e81",
+    "url": "/GHIBLI/static/js/2.9cc74adc.chunk.js"
   },
   {
-    "revision": "0fa550f530734c8a788b",
-    "url": "/GHIBLI/static/js/main.e4d74ecd.chunk.js"
+    "revision": "8c442c9730877eee5c98",
+    "url": "/GHIBLI/static/js/main.36f8a483.chunk.js"
   },
   {
     "revision": "7dec4a8dec591038d769",
     "url": "/GHIBLI/static/js/runtime~main.a2877158.js"
+  },
+  {
+    "revision": "faa7c5e59a0410d897ab943a89e88633",
+    "url": "/GHIBLI/static/media/title-logo.faa7c5e5.svg"
   },
   {
     "revision": "285ea0dba9d8c61ea8b2c5646fa600d8",
