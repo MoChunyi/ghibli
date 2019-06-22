@@ -1,0 +1,17 @@
+@keyframes myfirst {
+    0% {left: 90%; width: 0px; height: 0px;}
+    30% {width: 80px; height: 80px;}
+    70% {width: 80px; height: 80px;}
+    100% {left: 10%; width: 0px; height: 0px;}
+}
+
+.imgrun {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    animation: myfirst 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
