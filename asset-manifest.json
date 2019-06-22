@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.23561bc1.chunk.css",
-    "main.js": "./static/js/main.e4d74ecd.chunk.js",
-    "main.js.map": "./static/js/main.e4d74ecd.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-    "static/js/2.47d5459d.chunk.js": "./static/js/2.47d5459d.chunk.js",
-    "static/js/2.47d5459d.chunk.js.map": "./static/js/2.47d5459d.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.b1d60eedf30a4dbfa64ff443b0e0a694.js": "./precache-manifest.b1d60eedf30a4dbfa64ff443b0e0a694.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.23561bc1.chunk.css.map": "./static/css/main.23561bc1.chunk.css.map",
-    "static/media/totoro-run.gif": "./static/media/totoro-run.285ea0db.gif",
-    "static/media/totoro-white-background.jpg": "./static/media/totoro-white-background.a6a7990b.jpg",
-    "static/media/totorologo.svg": "./static/media/totorologo.a04e0472.svg"
+    "main.css": "/GHIBLI/static/css/main.408c4145.chunk.css",
+    "main.js": "/GHIBLI/static/js/main.e4d74ecd.chunk.js",
+    "main.js.map": "/GHIBLI/static/js/main.e4d74ecd.chunk.js.map",
+    "runtime~main.js": "/GHIBLI/static/js/runtime~main.a2877158.js",
+    "runtime~main.js.map": "/GHIBLI/static/js/runtime~main.a2877158.js.map",
+    "static/js/2.47d5459d.chunk.js": "/GHIBLI/static/js/2.47d5459d.chunk.js",
+    "static/js/2.47d5459d.chunk.js.map": "/GHIBLI/static/js/2.47d5459d.chunk.js.map",
+    "index.html": "/GHIBLI/index.html",
+    "precache-manifest.8cd525ddb224ad04c755e5c66e911880.js": "/GHIBLI/precache-manifest.8cd525ddb224ad04c755e5c66e911880.js",
+    "service-worker.js": "/GHIBLI/service-worker.js",
+    "static/css/main.408c4145.chunk.css.map": "/GHIBLI/static/css/main.408c4145.chunk.css.map",
+    "static/media/totoro-run.gif": "/GHIBLI/static/media/totoro-run.285ea0db.gif",
+    "static/media/totoro-white-background.jpg": "/GHIBLI/static/media/totoro-white-background.a6a7990b.jpg",
+    "static/media/totorologo.svg": "/GHIBLI/static/media/totorologo.a04e0472.svg"
   }
 }
