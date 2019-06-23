@@ -17,7 +17,18 @@
                 "Nausicaä of the Valley of the Wind"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/valleyofwind/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/valleyofwind/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/valleyofwind/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/valleyofwind/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/valleyofwind/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/valleyofwind/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/valleyofwind/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/valleyofwind/6.jpg"
+
+                    ]
+                }
             ]
         },
         {
@@ -36,7 +47,17 @@
                 "Laputa: Castle in the Sky"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/castleinsky/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/castleinsky/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/castleinsky/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/castleinsky/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/castleinsky/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/castleinsky/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/castleinsky/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/castleinsky/6.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -56,7 +77,20 @@
                 "My Neighbor Totoro"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/totoro/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/totoro/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/6.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/7.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/8.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/totoro/9.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -74,7 +108,17 @@
                 "Tombstone for Fireflies"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/fireflies/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/fireflies/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/fireflies/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/fireflies/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/fireflies/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/fireflies/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/fireflies/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/fireflies/6.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -91,7 +135,16 @@
                 "Kiki's Delivery Service"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/kiki/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/kiki/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/kiki/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/kiki/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/kiki/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/kiki/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/kiki/5.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -111,7 +164,17 @@
                 "Only Yesterday"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/onlyyesterday/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/onlyyesterday/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/onlyyesterday/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/onlyyesterday/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/onlyyesterday/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/onlyyesterday/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/onlyyesterday/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/onlyyesterday/6.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -130,7 +193,18 @@
                 "Kurenai no buta"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/rosso/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/rosso/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/rosso/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/rosso/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/rosso/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/rosso/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/rosso/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/rosso/6.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/rosso/7.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -149,7 +223,14 @@
                 "I Can Hear the Sea"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/oceanwaves/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/oceanwaves/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/oceanwaves/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/oceanwaves/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/oceanwaves/3.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -168,7 +249,15 @@
                 "The Raccoon War"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/pom_poko/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/pom_poko/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/pom_poko/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/pom_poko/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/pom_poko/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/pom_poko/4.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -189,7 +278,17 @@
                 "Whisper of the Heart"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/whisper_of_the_heart/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/whisper_of_the_heart/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/whisper_of_the_heart/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/whisper_of_the_heart/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/whisper_of_the_heart/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/whisper_of_the_heart/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/whisper_of_the_heart/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/whisper_of_the_heart/6.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -209,7 +308,14 @@
                 "Mononoke-hime"      
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/mononoke_hime/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/mononoke_hime/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/mononoke_hime/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/mononoke_hime/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/mononoke_hime/3.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -228,7 +334,16 @@
                 "My Neighbors the Yamadas"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/nerghbors_the_yamadas/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/nerghbors_the_yamadas/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/nerghbors_the_yamadas/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/nerghbors_the_yamadas/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/nerghbors_the_yamadas/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/nerghbors_the_yamadas/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/nerghbors_the_yamadas/5.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -249,7 +364,18 @@
                 "Spirited Away"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/spirited_away/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/spirited_away/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/spirited_away/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/spirited_away/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/spirited_away/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/spirited_away/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/spirited_away/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/spirited_away/6.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/spirited_away/7.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -267,7 +393,13 @@
                 "O Reino dos Gatos"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/the_cat_returns/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/the_cat_returns/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/the_cat_returns/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/the_cat_returns/2.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -285,7 +417,18 @@
                 "Howl's Moving Castle"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/moving_castle/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/moving_castle/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/moving_castle/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/moving_castle/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/moving_castle/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/moving_castle/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/moving_castle/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/moving_castle/6.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/moving_castle/7.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -303,7 +446,14 @@
                 "Tales from Earthsea"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/tales_from_earthsea/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/tales_from_earthsea/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/tales_from_earthsea/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/tales_from_earthsea/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/tales_from_earthsea/3.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -320,7 +470,19 @@
                 "Ponyo on the Cliff"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/ponyo/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/ponyo/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/2.png",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/6.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/7.png",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/ponyo/8.png"
+                    ]
+                }
             ]
         },
         {
@@ -339,7 +501,17 @@
                 "The Secret World of Arrietty"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/arrietty/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/arrietty/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/arrietty/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/arrietty/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/arrietty/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/arrietty/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/arrietty/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/arrietty/6.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -357,7 +529,17 @@
                 "From Up on Poppy Hill"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/poppy_hill/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/poppy_hill/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/poppy_hill/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/poppy_hill/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/poppy_hill/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/poppy_hill/4.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/poppy_hill/5.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/poppy_hill/6.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -376,7 +558,15 @@
                 "The Wind Rises"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/wind_rises/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/wind_rises/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/wind_rises/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/wind_rises/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/wind_rises/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/wind_rises/4.jpg"
+                    ]
+                }
             ]
         },
         {
@@ -395,7 +585,15 @@
                 "The Tale of Princess Kaguya"
             ],
             "imgs": [
-                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/the_princess_kaguya/titleshow.jpg"}
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/src/assets/datas/imgs/the_princess_kaguya/titleshow.jpg"},
+                {
+                    "detailimgs": [
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/the_princess_kaguya/1.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/the_princess_kaguya/2.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/the_princess_kaguya/3.jpg",
+                        "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/the_princess_kaguya/4.jpg"
+                    ]
+                }
             ]
         }
     ]

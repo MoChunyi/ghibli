@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import { Grid, Button, } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography'
 import { makeStyles } from '@material-ui/core/styles';
+import { isTSEnumMember } from '@babel/types';
 
 const useStyles = makeStyles(theme => ({
     gridroot: {
@@ -46,19 +46,32 @@ const FilmsInfo = (props) => {
         <Grid container spacing={3} className={classes.gridroot} justify={'center'}>
             {console.log(props)}
             {
-                props.filmsinfo && props.filmsinfo.map((item, index) => {
+                props.filmsinfo.length > 0 && props.filmsinfo.map(item => {
+                    let url = item.imgs.titleshowurl;
+                    console.log("url", url)
+                    let xhr = new XMLHttpRequest();
+                    let reader = new FileReader();
+                    let img = document.createElement("img")
+                    img.style.width="100%";
+                    img.style.height="400px";
+                    img.style.cursor="pointer"
+                    let id = item.id;
+                    xhr.open("GET", url, true);
+                    xhr.responseType="blob";
+                    xhr.onloadend = function() {
+                        console.log("this",this);
+                        if (this.status === 200) {
+                            reader.readAsDataURL(this.response);
+                        }
+                    }
+                    reader.onloadend = function() {
+                        img.src = this.result;
+                        document.getElementById(`${item.id}`).appendChild(img);
+
+                    }
+                    xhr.send();
                     return (
-                        <Grid  item key={index} xs={8} sm={6} md={4} style={{overflow: 'hidden'}}>
-                            <Card className={classes.card}>
-                                <CardContent >
-                                    <Typography className={classes.cardtitle} variant={"h5"} style={{display: 'inline-block'}}>
-                                        {item.title}
-                                    </Typography>
-                                    <Typography style={{overflowY: 'auto'}} >
-                                        {item.description}
-                                    </Typography>
-                                </CardContent>
-                            </Card>
+                        <Grid id={`${item.id}`} item xs={6} sm={4} md={3} style={{overflow: 'hidden'}}>
                         </Grid>
                     )
                 })

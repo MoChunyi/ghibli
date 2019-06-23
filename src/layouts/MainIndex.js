@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import { makeStyles } from '@material-ui/core/styles'
 import {useTheme} from '@material-ui/core/styles'
 import { Container, AppBar, Toolbar, Typography  } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import clsx from 'clsx';
 import bgimage from '../assets/images/totoro-white-background.jpg';
@@ -9,6 +10,7 @@ import totorologo from '../assets/images/totorologo.svg';
 import totororun from '../assets/images/totoro-run.gif';
 import titlelogo from '../assets/images/title-logo.svg';
 import FetchFilmsInfo from '../containers/FetchFilmsInfo';
+import GhibliRoutes from '../routes';
 const useStyles = makeStyles(theme => ({
     appbar: {
         zIndex: 0,
@@ -17,6 +19,13 @@ const useStyles = makeStyles(theme => ({
     },
     appbarscroll: {
         backgroundColor: '#4dd0e1'
+    },
+    mainContainer: {
+        padding: '0',
+        margin: '0',
+        width: '100%',
+        maxWidth: 'none',
+        maxHeight: 'none',
     },
     totorologo: {
         width: '64px',
@@ -37,31 +46,47 @@ const useStyles = makeStyles(theme => ({
     },
     titlelogo: {
         height: '64px'
+    },
+    routelink: {
+        width: theme.spacing(8),
+        height: theme.spacing(8),
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textDecoration: 'none',
+        color: 'black',
+        fontFamily: 'weight'
     }
 }))
 
 const MainIndex = (props) => {
     const theme = useTheme();
-    let trigger = useScrollTrigger({disableHysteresis: 'true', threshold: 10});
+    let trigger = useScrollTrigger({disableHysteresis: 'true', threshold: 500});
     const classes = useStyles();
     return (
         <Container style={{margin: 0, padding: 0, maxWidth: 'none'}}>
             <AppBar className={clsx({[classes.appbar]: !trigger, [classes.appbarscroll]: trigger})}  color="default">
                 <Toolbar>
-                    <Container>
+                    <Container style={{display: 'flex'}}>
                         <img src={totorologo} className={classes.totorologo} />
                         <img src={titlelogo} className={classes.titlelogo}/>
+                        <Link to="/home"  className={classes.routelink}>
+                            <Typography>
+                                Home
+                            </Typography>
+                        </Link>
+                        <Link to="/films" className={classes.routelink}>
+                            <Typography>
+                                Films
+                            </Typography>
+                        </Link>
                     </Container>
                 </Toolbar>
             </AppBar>
-            <Container 
-                style={{marginTop: '0px', backgroundImage: `url(${bgimage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '600px', maxWidth:'none'}}
-            >   <img src={totororun} className={"imgrun"}/>          
-                
+            <Container className={classes.mainContainer}>       
+                <GhibliRoutes></GhibliRoutes>
             </Container>
-            <Container style={{top: '-80px', zIndex: theme.zIndex.mobileStepper, position: 'relative'}}>
-                <FetchFilmsInfo />
-            </Container>
+            
         </Container>
     )
 }
