@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82c0f56a5ee522178dc340b62f94a2f8",
+    "revision": "fa273a2df791764cedc1937eb13d9ab0",
     "url": "/GHIBLI/index.html"
   },
   {
-    "revision": "8c442c9730877eee5c98",
+    "revision": "cc0f23d3e23931126a33",
     "url": "/GHIBLI/static/css/main.ea91ba80.chunk.css"
   },
   {
-    "revision": "77ee9cb7da76d7ea6e81",
-    "url": "/GHIBLI/static/js/2.9cc74adc.chunk.js"
+    "revision": "1eb6893902a149302e64",
+    "url": "/GHIBLI/static/js/2.a8d3159a.chunk.js"
   },
   {
-    "revision": "8c442c9730877eee5c98",
-    "url": "/GHIBLI/static/js/main.36f8a483.chunk.js"
+    "revision": "cc0f23d3e23931126a33",
+    "url": "/GHIBLI/static/js/main.84db9507.chunk.js"
   },
   {
     "revision": "7dec4a8dec591038d769",
     "url": "/GHIBLI/static/js/runtime~main.a2877158.js"
+  },
+  {
+    "revision": "69a3ae55c1fb6f5212249636dbc6a3ee",
+    "url": "/GHIBLI/static/media/homeimage.69a3ae55.jpg"
   },
   {
     "revision": "faa7c5e59a0410d897ab943a89e88633",
