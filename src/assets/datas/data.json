@@ -17,7 +17,7 @@
                 "Nausicaä of the Valley of the Wind"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/valleyofwind/titleshow.jpg"}
             ]
         },
         {
@@ -36,7 +36,7 @@
                 "Laputa: Castle in the Sky"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/castleinsky/titleshow.jpg"}
             ]
         },
         {
@@ -56,7 +56,7 @@
                 "My Neighbor Totoro"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/totoro/titleshow.jpg"}
             ]
         },
         {
@@ -74,7 +74,7 @@
                 "Tombstone for Fireflies"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/fireflies/titleshow.jpg"}
             ]
         },
         {
@@ -91,7 +91,7 @@
                 "Kiki's Delivery Service"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/kiki/titleshow.jpg"}
             ]
         },
         {
@@ -111,7 +111,7 @@
                 "Only Yesterday"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/onlyyesterday/titleshow.jpg"}
             ]
         },
         {
@@ -130,7 +130,7 @@
                 "Kurenai no buta"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/rosso/titleshow.jpg"}
             ]
         },
         {
@@ -149,7 +149,7 @@
                 "I Can Hear the Sea"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/oceanwaves/titleshow.jpg"}
             ]
         },
         {
@@ -168,7 +168,7 @@
                 "The Raccoon War"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/pom_poko/titleshow.jpg"}
             ]
         },
         {
@@ -189,7 +189,7 @@
                 "Whisper of the Heart"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/whisper_of_the_heart/titleshow.jpg"}
             ]
         },
         {
@@ -209,7 +209,7 @@
                 "Mononoke-hime"      
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/mononoke_hime/titleshow.jpg"}
             ]
         },
         {
@@ -228,7 +228,7 @@
                 "My Neighbors the Yamadas"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/nerghbors_the_yamadas/titleshow.jpg"}
             ]
         },
         {
@@ -249,7 +249,7 @@
                 "Spirited Away"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/spirited_away/titleshow.jpg"}
             ]
         },
         {
@@ -267,7 +267,7 @@
                 "O Reino dos Gatos"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/the_cat_returns/titleshow.jpg"}
             ]
         },
         {
@@ -285,7 +285,7 @@
                 "Howl's Moving Castle"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/moving_castle/titleshow.jpg"}
             ]
         },
         {
@@ -303,7 +303,7 @@
                 "Tales from Earthsea"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/tales_from_earthsea/titleshow.jpg"}
             ]
         },
         {
@@ -320,7 +320,7 @@
                 "Ponyo on the Cliff"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/ponyo/titleshow.jpg"}
             ]
         },
         {
@@ -339,7 +339,7 @@
                 "The Secret World of Arrietty"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/arrietty/titleshow.jpg"}
             ]
         },
         {
@@ -357,7 +357,7 @@
                 "From Up on Poppy Hill"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/poppy_hill/titleshow.jpg"}
             ]
         },
         {
@@ -376,7 +376,7 @@
                 "The Wind Rises"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/wind_rises/titleshow.jpg"}
             ]
         },
         {
@@ -395,7 +395,7 @@
                 "The Tale of Princess Kaguya"
             ],
             "imgs": [
-
+                {"titleshowurl": "https://raw.githubusercontent.com/MoChunyi/GHIBLI/master/src/assets/datas/imgs/the_princess_kaguya/titleshow.jpg"}
             ]
         }
     ]
