@@ -1,16 +1,14 @@
-import React, { useState} from 'react';
+import React, { useState, useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles'
 import {useTheme} from '@material-ui/core/styles'
 import { Container, AppBar, Toolbar, Typography  } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import clsx from 'clsx';
-import bgimage from '../assets/images/totoro-white-background.jpg';
-import totorologo from '../assets/images/totorologo.svg';
-import totororun from '../assets/images/totoro-run.gif';
+
 import titlelogo from '../assets/images/title-logo.svg';
-import FetchFilmsInfo from '../containers/FetchFilmsInfo';
 import GhibliRoutes from '../routes';
+import FilmsBriefInfo from '../components/FilmsBriefInfo';
 const useStyles = makeStyles(theme => ({
     appbar: {
         zIndex: 0,
@@ -30,6 +28,7 @@ const useStyles = makeStyles(theme => ({
     totorologo: {
         width: '64px',
         height: '64px',
+        cursor: 'pointer'
     },
     title: {
         color: '#bdbdbd',
@@ -45,7 +44,8 @@ const useStyles = makeStyles(theme => ({
         height: theme.spacing(8),
     },
     titlelogo: {
-        height: '64px'
+        height: '64px',
+        marginLeft: 64
     },
     routelink: {
         width: theme.spacing(8),
@@ -56,19 +56,28 @@ const useStyles = makeStyles(theme => ({
         textDecoration: 'none',
         color: 'black',
         fontFamily: 'weight'
+    },
+    briefInfo: {
+        background: 'rgba(255,255,255,0.5)',
+        padding: "5px 0 0 10px",
+        height: 600,
+        overflow: 'auto',
+        position: 'absolute'
     }
 }))
 
-const MainIndex = (props) => {
+
+
+const MainIndex = (props) => {     
     const theme = useTheme();
-    let trigger = useScrollTrigger({disableHysteresis: 'true', threshold: 500});
+    // let trigger = useScrollTrigger({disableHysteresis: 'true', threshold: 400});
     const classes = useStyles();
     return (
         <Container style={{margin: 0, padding: 0, maxWidth: 'none'}}>
-            <AppBar className={clsx({[classes.appbar]: !trigger, [classes.appbarscroll]: trigger})}  color="default">
+            <AppBar className={classes.appbarscroll}  color="default">
                 <Toolbar>
                     <Container style={{display: 'flex'}}>
-                        <img src={totorologo} className={classes.totorologo} />
+                        <FilmsBriefInfo></FilmsBriefInfo>
                         <img src={titlelogo} className={classes.titlelogo}/>
                         <Link to="/home"  className={classes.routelink}>
                             <Typography>
@@ -85,10 +94,9 @@ const MainIndex = (props) => {
             </AppBar>
             <Container className={classes.mainContainer}>       
                 <GhibliRoutes></GhibliRoutes>
-            </Container>
-            
+            </Container>            
         </Container>
     )
 }
 
-export default MainIndex;
+export default (MainIndex);

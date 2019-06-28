@@ -8,5 +8,10 @@ export default  {
     }),
     fetcherror: {
         type: "FILMSINFO_FAILED"
-    }
+    },
+    // fetchWithThunk: function() {
+    //     return function(dispatch, getState) {
+    //         console.log(getState())
+    //     }
+    // }
 }

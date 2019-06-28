@@ -1,5 +1,6 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { Grid, Button, } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -41,13 +42,18 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const FilmsInfo = (props) => {
+    useEffect(() => {
+        props.onSendRequest();
+    },[])
     const classes = useStyles();
+    const [sendbtngridvisiable, setSendbtngridvisiable] = useState(true);
     return (
         <Grid container spacing={3} className={classes.gridroot} justify={'center'}>
             {console.log(props)}
             {
                 props.filmsinfo.length > 0 && props.filmsinfo.map(item => {
                     let url = item.imgs.titleshowurl;
+                    console.log(url)
                     console.log("url", url)
                     let xhr = new XMLHttpRequest();
                     let reader = new FileReader();
@@ -71,16 +77,27 @@ const FilmsInfo = (props) => {
                     }
                     xhr.send();
                     return (
-                        <Grid id={`${item.id}`} item xs={6} sm={4} md={3} style={{overflow: 'hidden'}}>
-                        </Grid>
+                        
+                        <Grid  key={`${item.id}`} item xs={6} sm={4} md={3} style={{overflow: 'hidden'}}>
+                            <Link to={`filmdetail?id=${item.id}`} id={`${item.id}`}>
+                            </Link>
+                        </Grid>                    
                     )
                 })
             }
-            <Grid item xs={8} sm={6} md={4} justify={"center"} style={{display: 'flex'}}>
-                <Button variant="contained" onClick={props.onSendRequest}>
+            
+            {/* <Grid  item xs={8} sm={6} md={4} justify={"center"} style={{display: 'flex'}}>
+                <Button id="sendbtn" variant="contained" onClick={props.onSendRequest}>
                     SEND
                 </Button>
-            </Grid>
+            </Grid> */}
+            {/* 用thunk 请求 */}
+            {/* <Grid  item xs={8} sm={6} md={4} justify={"center"} style={{display: 'flex'}}>
+                <Button id="sendbtn" variant="contained" onClick={props.onSendRequestWithThunk}>
+                    SENDWITHTHUNK
+                </Button>
+            </Grid> */}
+            
         </Grid>
     )
 }

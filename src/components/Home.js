@@ -8,42 +8,19 @@ const useStyles = makeStyles(theme => ({
         padding: "0 0 0 0",
         margin: '0',
         width: '100%',
+        height: '800px',
         maxWidth: 'none',
         maxHeight: 'none',
+        backgroundImage: `url(${homebgimage})`,
+        backgroundSize:'cover'
     }
 }))
 
 const Home = (props) => {
     const classes = useStyles();
-    const getImages = () => {
-        let xhr = new XMLHttpRequest();
-        let reader = new FileReader();
-        for (let i = 0; i < 2; i++) {
-            xhr.open("GET", "https://raw.githubusercontent.com/MoChunyi/mcydatabase/master/ghibli/datas/imgs/arrietty/1.jpg", true);
-        xhr.responseType="blob";
-        xhr.onloadend = function() {       
-            console.log(this.response);
-            reader.readAsDataURL(this.response)
-        }
-        reader.onloadend = function() {
-            let divimage = document.getElementById("image");
-            let image = new Image();
-            image.height = 100;
-            console.log(this);
-            image.src = this.result;
-            divimage.appendChild(image);
-        }
-        xhr.send();
-        }
-        
-    }
     return (
         <Container className={classes.homecontainer}>
-            <img style={{width: '100%'}} src={homebgimage}></img>
-            <Button onClick={getImages}>
-                getImages
-            </Button>
-            <div id='image'></div>
+            {/* <img style={{width: '100%', backgroundSize:'cover'}} src={homebgimage}></img> */}
         </Container>
     )
 }

@@ -25,7 +25,8 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
             }
         }
         xhr.send();
-    }
+    },
+    // onSendRequestWithThunk:() => { dispatch(actions.fetchWithThunk())}
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(FilmsInfo);
